@@ -1,0 +1,121 @@
+.header {
+    background-color: #ffffff;
+    background-image: url(../images/background_header.svg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    min-height: 720px;
+    max-height: 800px;
+    height: 100vh;
+    z-index: 1;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+    z-index: 1;
+    width: 125PX;
+    height: 142px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  color:#000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 80px;
+  margin-top: 30px;
+  flex-direction: row;
+}
+
+.nav__links {
+  list-style: none;
+  align-items: flex-end;
+  text-decoration: none;
+  column-gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link:hover {
+    color: #2f80ed;
+    transition: background color 2s ease-in;
+}
+
+.header__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: 80px;
+    max-width: 729px;
+    font-family:"Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    position: relative;
+    z-index: 1;
+}
+
+.header__span-accent {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2f80ed;
+}
+
+.header__description {
+    margin-left: 80px;
+    max-width: 683px;
+    margin-top: 28px;
+    font-family:"Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.header__image {
+    top: 124px;
+    right: 5px;
+    width: 646px;
+    height: 568px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    display: flex;
+
+}
+
+.header__paragraph-hours {
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.header__paragraph {
+    margin-bottom: 40px;
+    margin-right: 80px;
+    align-self: flex-end;
+}
