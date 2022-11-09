@@ -43,7 +43,7 @@
         <span class="header__span-accent">Specialty coffee</span> 
           in the Practicum Library </h1>
         <p class="header__description">
-            Welcome to out study zone! We've got the coffee to energize you and the cozy vibesto help you get creative</p>
+            Welcome to out study zone! We've got the coffee to energize you and the cozy vibes to help you get creative</p>
         <img 
         src="./images/inside_coffee_shop.png" 
         alt="coffee shop" 
@@ -126,7 +126,57 @@
           </li>
         </ul>
       </section> 
+      <section class="recipes" id="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle"> Check out some recipes we've collected for your home-brewing convenience:</p>
+        <div class="recipes__videos">
+            <div class="recipes__video">
+            <iframe class="recipes__iframe"
+                src="https://www.youtube.com/watch?v=j6VIT_jUVPc"
+                allowfullscreen>
+            </iframe>
+            <div class="recipes__viedo-captions">
+                <p class="recipes__video-caption">Aeropress recipe</p>
+                <p class="recipes__video-caption">~5 min</p>
+            </div>
+            </div>
+            <div class="recipes__video">
+                <iframe class="recipes__iframe"
+                src="https://www.youtube.com/watch?v=st571DYYTR8"
+                allowfullscreen> 
+            </iframe>
+            <div class="recipes__video-captions">
+                <p class="recipes__video-caption">French press recipe</p>
+                <p class="recipes__video-caption">~15 min</p>
+            </div>
+            </div>
+        </div>
+     </section>
+     <section class="reservation" id="reservation">
+        <h3 class="reservation__title">Book a table</h3>
+        <form class="reservation__form">
+            <fieldset class="form__fieldset">
+                <label class="form__label" for="name"> Name *</label>
+                <input type="text" id="name" class="form__label" placeholder="Name Surname" />
+                <label class="form__label" for="number-of-guests"> Number of guests *</label>
+                <input type="number" id="number of guests" placeholder="1-8" />
+                <label class="form__label" for="date-&-time"> Date & time *</label>
+                <input type="datetime-local" id="date-&-time" class="form__label"/>
+                <label class="form__label" for="you-email"> Your email</label>
+                <input type="email" id="your-email" class="form__label" placeholder="email@email.com"/>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <button class="form__button" type="submit">Book a table</button>
+            </fieldset>
+            <fieldset class="form__label">
+                <label class="form__label"> I agree witht he terms of use 
+                <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use"/>
+                </label>
+            </fieldset>
+        </form>
+     </section>
     </main>
+
     <footer></footer>
 </body>
 </html>
