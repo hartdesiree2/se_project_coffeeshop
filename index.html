@@ -132,51 +132,108 @@
         <div class="recipes__videos">
             <div class="recipes__video">
             <iframe class="recipes__iframe"
-                src="https://www.youtube.com/watch?v=j6VIT_jUVPc"
-                allowfullscreen>
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                height="273" width="480" frameborder="0" allowfullscreen>
             </iframe>
-            <div class="recipes__viedo-captions">
+            <div class="recipes__video-captions">
                 <p class="recipes__video-caption">Aeropress recipe</p>
-                <p class="recipes__video-caption">~5 min</p>
+                <p class="recipes__video-caption"> ~5min</p>
             </div>
             </div>
             <div class="recipes__video">
                 <iframe class="recipes__iframe"
-                src="https://www.youtube.com/watch?v=st571DYYTR8"
-                allowfullscreen> 
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                height="273" width="480" frameborder="0"allowfullscreen> 
             </iframe>
             <div class="recipes__video-captions">
                 <p class="recipes__video-caption">French press recipe</p>
-                <p class="recipes__video-caption">~15 min</p>
+                <p class="recipes__video-caption"> ~15 min</p>
             </div>
             </div>
         </div>
      </section>
      <section class="reservation" id="reservation">
         <h3 class="reservation__title">Book a table</h3>
-        <form class="reservation__form">
+          <form class="reservation__form">
             <fieldset class="form__fieldset">
-                <label class="form__label" for="name"> Name *</label>
-                <input type="text" id="name" class="form__label" placeholder="Name Surname" />
-                <label class="form__label" for="number-of-guests"> Number of guests *</label>
-                <input type="number" id="number of guests" placeholder="1-8" />
-                <label class="form__label" for="date-&-time"> Date & time *</label>
-                <input type="datetime-local" id="date-&-time" class="form__label"/>
-                <label class="form__label" for="you-email"> Your email</label>
-                <input type="email" id="your-email" class="form__label" placeholder="email@email.com"/>
-            </fieldset>
-            <fieldset class="form__fieldset">
-                <button class="form__button" type="submit">Book a table</button>
-            </fieldset>
-            <fieldset class="form__label">
-                <label class="form__label"> I agree witht he terms of use 
-                <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use"/>
-                </label>
+                <label 
+                class="form__label" 
+                for="name"> Name *</label>
+                <input 
+                type="text" 
+                id="name" 
+                class="form__input" 
+                placeholder="Name Surname" />
+                <label 
+                class="form__label" 
+                for="number-of-guests"> Number of guests *</label>
+                <input 
+                type="number" 
+                id="number of guests" 
+                class="form__input" 
+                placeholder="1-8" />
+                <label 
+                class="form__label" 
+                for="date-&-time"> Date & time *</label>
+                <input 
+                type="datetime-local" 
+                id="date-&-time" 
+                class="form__input"/>
+                <label 
+                class="form__label" 
+                for="you-email"> Your email *</label>
+                <input 
+                type="email" 
+                id="your-email" 
+                class="form__input" 
+                placeholder="email@email.com"/>
+                <button type="submit" class="form__button">Book a table</button>   
+                <label class="form__label">
+                <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use"/> I agree with the terms of use </label>
             </fieldset>
         </form>
-     </section>
+      </section>
     </main>
-
-    <footer></footer>
-</body>
+    <section class="about" id="about">
+        <h4 class="about__title">About the 
+            coffee shop</h4>
+            <div class="about__content">
+                <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi. </p>
+                <p class="about__paragraph">Our main mission is keeping guest cozy and energized.</p>
+                <p class="about__paragraph">Besides that, we try to reduce out enviromental impact -- so we don't sell single-use cups. But you can buy one of our reuseable cups!</p>
+            </div>
+            <div class="about__circle"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
+     </section>
+    <footer class="footer" id="contacts">
+        <div class="footer__content">
+            <img 
+            src="./images/practicum_logo.svg"
+            alt="footer logo"
+            class="footer__logo" />
+        </div>
+        <div class="footer__content footer__content-social-heading"> 
+            <h5 class="footer__content-heading">Social media</h5>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img 
+                        src="./images/facebook_white.svg"
+                        alt="Facebook Icon"
+                        class="footer__social-icon"/>
+                        Facebook </a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img
+                        src="./images/instagram_white.svg"
+                        alt="Instagram Icon"
+                        class="footer__social-icon"/>
+                        Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer__copyright">© 2022 Desiree Hart</p>
+     </footer>
+  </body>
 </html>

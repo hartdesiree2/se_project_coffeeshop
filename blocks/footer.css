@@ -1,0 +1,54 @@
+.footer {
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    box-sizing: border-box;
+}
+
+.footer__logo {
+    width: 116px;
+    height: 21px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.footer__content-heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.footer__list {
+    list-style-type: none;
+}
+
+.footer__list-item {
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer__scoial-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.footer__copyright {
+    color: #fff;
+    margin: 0;
+}
