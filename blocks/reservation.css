@@ -19,11 +19,18 @@
     justify-content: center;
 }
 
-.reservation__form {
+.form {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
+.reservation__form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 
 .form__fieldset {
     display: flex;
