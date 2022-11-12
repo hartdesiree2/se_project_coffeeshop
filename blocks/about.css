@@ -17,6 +17,7 @@
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 .about__title {
@@ -30,7 +31,6 @@
     color: #ffffff;
     max-width: 251px;
     z-index: 1;
-    display: flex;
 }
 
 .about__content {
@@ -50,7 +50,12 @@
 
 .about__paragraph {
     margin-bottom: 20px;
+    margin-top: 0;
 
+}
+
+.about__paragraph:last-child {
+    margin-bottom: 0;
 }
 
 .about__circle {

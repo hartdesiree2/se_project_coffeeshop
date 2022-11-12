@@ -13,4 +13,20 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Adding correct format
+Improving upon picture placement
+Refactoring the code
+Creation of the Practicum Coffee Shop by adding text and photos 
+Using BEM format
+Adding Blocks with all required CSS folders
+Using the NU HTML Checker
+Using required design breif
+
+### Description
+
+Specialty Coffee at the Practicum Library
+Menu designs
+Recommended recipes
+Options to Book a Table
+Social Media links
+
