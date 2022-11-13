@@ -154,16 +154,16 @@
         <form class="form__reservation form">
             <fieldset class="form__fieldset">
                 <label class="form__label" for="name"> Name *</label>
-                <input type="text" name="name" required="text" class="form__input" id="name" placeholder="Name Surname" />
+                <input type="text" name="name" class="form__input" id="name" placeholder="Name Surname" />
                 <label class="form__label" for="number-of-guests"> Number of guests *</label>
-                <input type="number" name="guests" required="number" min="1" max="8" id="number-of-guests" class="form__input" placeholder="1-8" />
+                <input type="number" name="number-of-guests" min="1" max="8" id="number-of-guests" class="form__input" placeholder="1-8" />
                 <label class="form__label" for="date-&-time"> Date & time *</label>
-                <input type="datetime-local" name="date-time" required="datetime-local" id="date-&-time" class="form__input"/>
+                <input type="datetime-local" name="date-&-time" id="date-&-time" class="form__input"/>
                 <label class="form__label" for="your-email"> Your email *</label>
-                <input type="email" name="email" required="email" id="your-email" class="form__input" placeholder="email@email.com"/>
+                <input type="email" name="your-email" id="your-email" class="form__input" placeholder="email@email.com"/>
                 <button type="submit" class="form__button">Book a table</button>   
                 <label class="form__label">
-                <input type="checkbox" class="form__checkbox" required="checkbox" name="terms-of-use" id="terms-of-use"/> I agree with the terms of use </label>
+                <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use"/> I agree with the terms of use </label>
             </fieldset>
         </form>
       </section>
@@ -176,7 +176,7 @@
             </div>
             <div class="about__circle"></div>
             <div class="about__circle about__circle_animation_blurred"></div>
-     </section>
+      </section>
      </main>
     <footer class="footer" id="contacts">
         <div class="footer__content">
@@ -205,9 +205,8 @@
                 </li>
             </ul>
           </div>
-        </div>
-        <p class="footer__copyright">© 2022 Desiree Hart</p>
-      </div>
+         <p class="footer__copyright">© 2022 Desiree Hart</p>
+       </div>
      </footer>
     </div>
   </body>
