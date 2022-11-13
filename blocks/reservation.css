@@ -8,6 +8,13 @@
     padding-bottom: 120px;
 }
 
+.reservation__form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
 .reservation__title {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
