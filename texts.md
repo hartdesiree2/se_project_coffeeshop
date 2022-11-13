@@ -1,4 +1,3 @@
-*Header*
 Menu
 Recipes
 Book a table
