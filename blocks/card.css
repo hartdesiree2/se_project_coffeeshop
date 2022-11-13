@@ -1,5 +1,4 @@
 .card {
-    margin-right: 0;
     max-width: 600px;
     flex-basis: calc(50% - 50px);
 }
@@ -13,7 +12,6 @@
     margin-bottom: 32px;
     padding-left: 40px;
     margin-top: 0;
-
 }
 
 .card__list {
@@ -23,6 +21,8 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+
 
 .card__list-item {
     display: flex;

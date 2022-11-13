@@ -8,7 +8,6 @@
 .form__fieldset {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
     border: none;
 }
 
@@ -18,8 +17,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 32px;
-    
+    margin-bottom: 8px;
+}
+
+.form__label:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .form__input {
@@ -33,12 +37,13 @@
     color: #838383;
     height: 60px;
     box-sizing: border-box;
-    margin-top: 8px;
+    margin-bottom: 32px;
 }
+
+
 
 .form__button {
     border-radius: 4px;
-    margin-bottom: 32px;
     opacity: 100%;
     background-color: #2f80ed;
     transition: opacity 2s ease-in-out;
@@ -51,9 +56,11 @@
     line-height: 20px;
     height: 60px;
     width: 385px;
-    margin-top: 32px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    color: #fff;
+    border: none;
 }
 
 .form__button:hover {
